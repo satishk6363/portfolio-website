@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satish Kumar Ammula - Portfolio</title>
+    <style>
+        :root {
+            --primary-bg: #0f172a;
+            --secondary-bg: #1e293b;
+            --accent: #38bdf8;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+        }
+        h1 { font-size: 3.5rem; margin-bottom: 10px; color: var(--accent); }
+        .subtitle { font-size: 1.5rem; color: var(--text-muted); margin-bottom: 20px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
+        section { margin-bottom: 80px; }
+        h2 { border-left: 4px solid var(--accent); padding-left: 15px; margin-bottom: 30px; font-size: 2rem; color: var(--text-main); }
+        .card {
+            background: var(--secondary-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 15px;
+        }
+        .skill-tag {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent);
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 500;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--primary-bg);
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s, background 0.2s;
+        }
+        .btn:hover { transform: translateY(-2px); background: #7dd3fc; }
+        footer { text-align: center; padding: 60px; color: var(--text-muted); border-top: 1px solid var(--secondary-bg); }
+        @media (max-width: 600px) { h1 { font-size: 2.5rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Satish Kumar Ammula</h1>
+        <p class="subtitle">Cloud & DevOps Engineer</p>
+        <p style="max-width: 600px; color: var(--text-muted); margin-bottom: 30px;">2025 Computer Science graduate with a strong foundation in Cloud Engineering and DevOps. Focused on building scalable, automated systems using AWS, Azure, and modern CI/CD tools.</p>
+        <a href="#contact" class="btn">View Contact Details</a>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>I am a 2025 B.Tech Computer Science graduate specializing in Cloud Operations and DevOps. My goal is to build automated, efficient, and scalable infrastructure.</p>
+                <div style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div><strong>Education:</strong><br>B.Tech in Computer Science and Engineering (2025)</div>
+                    <div><strong>Location:</strong><br>Hyderabad, India</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">AWS</div><div class="skill-tag">Azure</div><div class="skill-tag">Docker</div><div class="skill-tag">Kubernetes</div><div class="skill-tag">Terraform</div><div class="skill-tag">CI/CD Pipelines</div><div class="skill-tag">Linux Administration</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="card" style="text-align: center;">
+                <p>Available for entry-level roles in Cloud Support and DevOps.</p>
+                <p style="margin-top: 20px; font-size: 1.2rem; color: var(--accent); font-weight: bold;">satishkumarammula07@gmail.com</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Satish Kumar Ammula | Hosted on AWS</p>
+    </footer>
+
+    <script>
+        // Simple console message to verify JS is running
+        console.log("Portfolio Loaded Successfully");
+    </script>
+</body>
+</html>
