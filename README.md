@@ -67,3 +67,9 @@ git push origin main
 ## Author
 
 Satish Kumar Ammula
+
+## Project Screenshot
+
+![image](<img width="960" height="475" alt="portfolio-home2" src="https://github.com/user-attachments/assets/172b59c3-7386-438d-9648-9a1f1c7ea514" />
+<img width="960" height="474" alt="portfolio-home1" src="https://github.com/user-attachments/assets/e003d9cd-cc88-4afd-a2f1-fc56af51f3ab" />
+)
